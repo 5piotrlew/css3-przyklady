@@ -104,3 +104,9 @@ input[type="text"]{
 input[title="Tytuł"]{
     background-color: gray;
 }
+
+input[title~="po"]{
+    background-color: palegreen;
+}
+
+
