@@ -35,8 +35,17 @@ a:hover {
     font-size: 2em;    
 }
 
+a:active {
+    color: orangered;
+    
+}
 
+input:focus{
+    background-color: red;
+}
 
-
+p:target{
+    background-color: cyan;
+}
 
 
