@@ -90,3 +90,17 @@ li:nth-child(3n+3) {
     background-color: green;
 }
 
+/* selektory atrybutow */
+
+input[title] {
+    background-color: aqua;
+}
+
+input[type="text"]{
+    background-color: red;
+}
+
+
+input[title="Tytuł"]{
+    background-color: gray;
+}
