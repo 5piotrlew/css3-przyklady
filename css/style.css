@@ -109,6 +109,10 @@ input[title~="po"]{
     background-color: palegreen;
 }
 
+input[title*="tyt"]{
+    background-color: black;
+}
+
 input[title^="tyt"]{
     background-color: pink;
 }
