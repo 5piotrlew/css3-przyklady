@@ -84,7 +84,7 @@ li:nth-child(3n) {
     background-color: fuchsia;
 }
 
-/* startuj od trzeciego i co trzeci koloruje */
+/* startuj od trzeciego i co trzeci koloruje jak dodam do (3n+3):hover to po najechaniu */
 
 li:nth-child(3n+3) {
     background-color: green;
