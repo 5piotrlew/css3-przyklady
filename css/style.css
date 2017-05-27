@@ -1,6 +1,8 @@
+/*
 *{
     background-color: burlywood;
 }
+*/
 
 p{
     background-color: cadetblue;
@@ -58,5 +60,33 @@ li:first-child{
 
 li:last-child{
     font-size: 2em;
+}
+
+p span:only-child{
+    text-decoration: line-through;
+}
+
+div:empty {
+    width: 600px;
+    height: 200px;
+    background-color: blue;
+}
+
+li:nth-child(odd) {
+    background-color: purple;
+}
+
+li:nth-child(4) {
+    background-color: purple;
+}
+
+li:nth-child(3n) {
+    background-color: fuchsia;
+}
+
+/* startuj od trzeciego i co trzeci koloruje */
+
+li:nth-child(3n+3) {
+    background-color: green;
 }
 
